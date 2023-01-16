@@ -2,7 +2,7 @@ const { Car } = require('../models');
 const { Op } = require('sequelize');
 const sequelize = require('../services/database-setup');
 
-
+exports.createCar
 
 exports.getAllCars = async (req, res, next) => {
     const transaction = await sequelize.transaction();

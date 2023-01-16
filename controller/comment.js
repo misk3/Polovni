@@ -19,3 +19,5 @@ exports.create = async (req, res, next) => {
       next(err);
     }
   };
+
+  // DA LI UBACITI GET COMMENT BY SPECIFIC USER ???

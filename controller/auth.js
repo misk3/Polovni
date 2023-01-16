@@ -20,4 +20,4 @@ exports.singUp = async (req, res, next) => {
         await transaction.rollback();
         next(err);
     }
-}
+};
